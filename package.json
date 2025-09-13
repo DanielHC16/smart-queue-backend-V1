@@ -1,14 +1,16 @@
 {
   "name": "smart-queue-backendv1",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Smart Queue Backend API",
+  "main": "server.js",
   "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "compression": "^1.8.1",
@@ -22,5 +24,8 @@
     "morgan": "^1.10.1",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }

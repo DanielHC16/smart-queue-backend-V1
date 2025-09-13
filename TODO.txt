@@ -5,3 +5,4 @@
 1. helmet, cors, express-rate-limit and compression: basic middleware for security and performance
 2. express-validator: input checking
 3. (Not yet installed) @prisma/client + prisma: DB management access and migration
+4. nodemon: for dev purposes
