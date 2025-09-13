@@ -1,0 +1,7 @@
+// TODO: Verify and Setup DB using prisma (Awaiting confirmation from PM)
+
+// NOTES:
+// List of Libraries Used and Short Description.
+1. helmet, cors, express-rate-limit and compression: basic middleware for security and performance
+2. express-validator: input checking
+3. (Not yet installed) @prisma/client + prisma: DB management access and migration
